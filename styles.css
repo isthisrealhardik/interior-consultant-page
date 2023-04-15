@@ -147,7 +147,7 @@ a:hover {
 }
 .Image {
     width: 100vw;
-    padding: 20px;
+    padding: 10px 20px;
 }
 .Image-image {
     width: 100%;
@@ -157,7 +157,7 @@ a:hover {
     background-color: var(--background);
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
     position: absolute;
-    bottom: 10px;
+    bottom: 40px;
     width: 300px;
     left: 60px;
     height: 120px;
