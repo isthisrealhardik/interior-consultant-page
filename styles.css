@@ -82,7 +82,7 @@ a:hover {
         display: none;
     }
     .Nav {
-        padding: 30px;
+        padding: 30px 60px;
     }
     .EleDes {
         display: flex;
@@ -203,4 +203,40 @@ a:hover {
     bottom: 10px;
     font-size: 13px;
     left: 45px;
+}
+@media only screen and (min-width: 1024px) {
+    .Main {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 30px 60px;
+        width: 100vw;
+    }
+    .Image-image {
+        width: 600px;
+    }
+    .Image {
+        padding: 0;
+    }
+    .Box {
+        display: none;
+    }
+    .Text, .Image {
+        padding: 0;
+    }
+    .Text-main {
+        font-size: 50px;
+    }
+    .Text-para {
+        padding-right: 150px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+    .Text-button {
+        font-size: 20px;
+    }
+    .Arrow {
+        width: 40px;
+        margin-left: 10px;
+    }
 }
